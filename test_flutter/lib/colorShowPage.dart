@@ -40,6 +40,7 @@ class _ColorShowPageState extends State<ColorShowPage> {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
+        elevation: 0,
         leading: Builder(
             builder: (BuildContext context) {
               return IconButton(
